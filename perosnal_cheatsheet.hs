@@ -94,7 +94,7 @@ someAges = [35, 34, 21]
 namesAndAges = zip someNames someAges
 
 ------------------USING 'MAIN'
--- "do" will chain operations together like a normal program, w/ "main" to make the module executable
+-- "do" will chain operations together like a normal program, w/ "main" to make the module executable or function body
 -- "getLine" gets standard input from the user
 -- "putStrLn" outputs a line of code to standard output for the user
 
@@ -169,12 +169,10 @@ useFuncWithNum fn = fn 3
 mult4and3 = useFuncWithNum multBy4
 
 --------------------------------ENUMERATED AND CUSTOM TYPES W/ TYPE CLASSES
+-----TO DO
 
 
-
--- What is the "Just" keyword?
-
-
+-- The Just keyword: 
 
 
 -------------------------------------MONADS 
@@ -197,5 +195,3 @@ mult4and3 = useFuncWithNum multBy4
 Proving the Monad in the same stride as "callback hell" in Javascript:
 
 -}
-
-
